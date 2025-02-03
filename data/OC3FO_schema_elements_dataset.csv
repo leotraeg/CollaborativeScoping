@@ -1,4 +1,4 @@
-﻿id,node_type,parent_id,schema,name,table_name,datatype,constraints,text_sequence
+﻿id,type,parent_id,schema,name,parent_name,datatype,constraints,text_sequence
 entity_43,schema,,OC-ORACLE,,,,,OC-ORACLE
 entity_44,table,entity_43,OC-ORACLE,CUSTOMERS,,,,"CUSTOMERS [CUSTOMER_ID, EMAIL_ADDRESS, FULL_NAME]"
 entity_45,attribute,entity_44,OC-ORACLE,CUSTOMER_ID,CUSTOMERS,NUMBER,PRIMARY KEY,CUSTOMER_ID CUSTOMERS NUMBER PRIMARY KEY
