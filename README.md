@@ -21,7 +21,7 @@ The datasets contain the two differently challenging multi-source schema matchin
 
 **Linkages** that were annotated between the OC3 schemas.
 
-**Evaluation Results** of the AUC-F1, AUC-ROC, AUC-ROC', and AUC-PR performance between Scoping and Collaborative Scoping on OC3 and OC3-FO.
+**Evaluation Results** of the AUC-F1, AUC-ROC, AUC-ROC', and AUC-PR performance in raw and analyzed on the difference between Scoping and Collaborative Scoping on OC3 and OC3-FO.
 
 See `./data` for more details.
 
