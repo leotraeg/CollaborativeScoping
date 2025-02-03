@@ -9,7 +9,7 @@ _Method Description_: Collaborative scoping is a robust approach to locally asse
 ![overview3.png](./figures/overview3.png)
 
 ## Datasets
-The datasets contain the two differently challenging multi-source schema matching scenarios OC3 and OC3-FO. Both datasets store the tables and attributes of all schemas as records with their extracted metadata and annotated linkable (true) and unlinkable (false) labels.
+The datasets contain the two differently challenging multi-source schema matching scenarios OC3 and OC3-FO. Both datasets store the tables and attributes of all schemas as records with their extracted metadata (id, type, parent_id, schema, name, parent_name, datatype, constraints), its serialization (text_sequence), and annotated linkable (true) and unlinkable (false) label (label_linkability). 
 
 **OC3** contains three schemas on Orders-Customers from the three database vendors:
 - Oracle: https://github.com/oracle-samples/db-sample-schemas
