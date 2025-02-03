@@ -12,7 +12,7 @@ The datasets contain the two differently challenging multi-source schema matchin
 - MySQL: https://www.mysqltutorial.org/mysql-sample-database.aspx
 - SAP HANA: https://github.com/saphanaacademy/HXE/tree/master/STS
 
-**OC3-FO** extends OC3 with a domain-unrelated schema on Formula-One, sourced from
+**OC3-FO** extends OC3 with a domain-unrelated schema on Formula One, sourced from the
 - jolpica-f1 project: https://github.com/jolpica/jolpica-f1
 
 See `./data` for more details.
