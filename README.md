@@ -19,12 +19,22 @@ The datasets contain the two differently challenging multi-source schema matchin
 **OC3-FO** extends OC3 with a domain-unrelated schema on Formula One, sourced from the
 - jolpica-f1 project: https://github.com/jolpica/jolpica-f1
 
+**Linkages** that were annotated between the OC3 schemas.
+
+**Evaluation Results** of the AUC-F1, AUC-ROC, AUC-ROC', and AUC-PR performance between Scoping and Collaborative Scoping on OC3 and OC3-FO.
+
 See `./data` for more details.
-
-## Requirements
-
-- TBD libraries
 
 ## Quick Start
 
-- TBD executable python file
+Open the collaborative_scoping.ipynb file in a Jypter Notebook with Python >= 3.12.5. The script is structured and executable step-by-step in the following order of sections:
+1. Libraries (Requirements: Pandas, NumPy, Matplotlib, Seaborn, Plotly, Tensorflow, Keras, Sklearn, and Scipy)
+2. Datasets
+3. Signatures
+4. Utilities for Scoping (ODA, Helper Functions, Performance Metrics, #PCA given Explained Variance)
+5. Scoping (Z-Score, LOF, PCA, Autoencoder)
+6. Collaborative Scoping (PCA)
+7. Evaluation (Table, Plots)
+
+For any questions, please feel free to send me a message at <leonard.traeger@umbc.edu>.
+
