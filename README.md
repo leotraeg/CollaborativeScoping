@@ -14,14 +14,16 @@ The datasets contain the two differently challenging multi-source schema matchin
 **OC3** contains three schemas on Orders-Customers from the three database vendors:
 - Oracle: https://github.com/oracle-samples/db-sample-schemas
 - MySQL: https://www.mysqltutorial.org/mysql-sample-database.aspx
-- SAP HANA: https://github.com/saphanaacademy/HXE/tree/master/STS
+- SAP HANA: https://developers.sap.com/tutorials/hxe-ua-dbfundamentals-sample-project.html
 
 **OC3-FO** extends OC3 with a domain-unrelated schema on Formula One, sourced from the
 - jolpica-f1 project: https://github.com/jolpica/jolpica-f1
 
 **Linkages** that were annotated between the OC3 schemas.
 
-**Evaluation Results** of the AUC-F1, AUC-ROC, AUC-ROC', and AUC-PR performance in raw and analyzed on the difference between Scoping and Collaborative Scoping on OC3 and OC3-FO.
+**Scoping Evaluation** of the AUC-F1, AUC-ROC, AUC-ROC', and AUC-PR performance in raw and analyzed on the difference between Scoping and Collaborative Scoping on OC3 and OC3-FO.
+
+**Matching Ablation Study** of Pair Quality (PQ), Pair Completness (PC), F1, and Reduction Ratio (RR) for Matching (SIM) and Blocking (k-Means and LSH) with Collaborative Scoping on OC3 and OC3-FO.
 
 See `./data` for more details.
 
@@ -35,7 +37,7 @@ Open the collaborative_scoping.ipynb file in a Jypter Notebook with Python >= 3.
 5. Scoping (Z-Score, LOF, PCA, Autoencoder)
 6. Collaborative Scoping (PCA)
 7. Evaluation (Table, Plots)
-8. Evaluation of Matching (SIM) and Blocking (k-Means and LSH) in Ablation Study
+8. Evaluation of Matching and Blocking (Plots)
 
 For any questions, please feel free to send me a message at <leonard.traeger@umbc.edu>.
 
