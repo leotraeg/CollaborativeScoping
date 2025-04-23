@@ -35,6 +35,7 @@ Open the collaborative_scoping.ipynb file in a Jypter Notebook with Python >= 3.
 5. Scoping (Z-Score, LOF, PCA, Autoencoder)
 6. Collaborative Scoping (PCA)
 7. Evaluation (Table, Plots)
+8. Evaluation of Matching (SIM) and Blocking (k-Means and LSH) in Ablation Study
 
 For any questions, please feel free to send me a message at <leonard.traeger@umbc.edu>.
 
