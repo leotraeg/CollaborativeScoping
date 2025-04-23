@@ -1,12 +1,12 @@
 # Scoping Streamlined Schemas
 _Motivating Introduction_: Given a set of multi-source schemas, we aim to identify the streamlined subset of these, which includes only linkable tables and attributes needed for a complete schema integration view. Identifying the set of streamlined schemas is an approximation.
-![example5.png](./figures/example5.png)
+![example5.png](./figures/example6.png)
 
 # Collaborative Scoping: Self-Supervised Linkability Assessment for Schema Matching
 
 _Method Description_: Collaborative scoping is a robust approach to locally assess linkable tables and attributes toward matching multiple heterogeneous schemas with different volumes, designs, and domains. The overall framework entails the three phases: (I) Local Signatures, (II) Local Self-Supervised Model, and (III) Local Linkability Assessment with Distributed Models. 
 
-![overview3.png](./figures/overview3.png)
+![overview3.png](./figures/overview6.png)
 
 ## Datasets
 The datasets contain the two differently challenging multi-source schema matching scenarios OC3 and OC3-FO. Both datasets store the tables and attributes of all schemas as records with their extracted metadata (id, type, parent_id, schema, name, parent_name, datatype, constraints), its serialization (text_sequence), and annotated linkable (true) and unlinkable (false) label (label_linkability). 
