@@ -1,6 +1,6 @@
 # Scoping Streamlined Schemas
 _Motivating Introduction_: Given a set of multi-source schemas, we aim to identify the streamlined subset of these, which includes only linkable tables and attributes needed for a complete schema integration view. Identifying the set of streamlined schemas is an approximation.
-![example6.png](./figures/example6.png)
+![example7.png](./figures/example7.png)
 
 # Collaborative Scoping: Self-Supervised Linkability Assessment for Schema Matching
 
