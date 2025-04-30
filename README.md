@@ -4,7 +4,7 @@ _Motivating Introduction_: Given a set of multi-source schemas, we aim to identi
 
 # Collaborative Scoping: Self-Supervised Linkability Assessment for Schema Matching
 
-_Method Description_: Collaborative scoping is a robust approach to locally assess linkable tables and attributes toward matching multiple heterogeneous schemas with different volumes, designs, and domains. The overall framework entails the three phases: (I) Local Signatures, (II) Local Self-Supervised Model, and (III) Local Linkability Assessment with Distributed Models. 
+_Method Description_: Collaborative Scoping is a robust and self-supervised approach to locally examine the linkability of schema elements and prune unlinkable ones ahead on their way toward matching multiple heterogeneous schemas with different volumes, designs, and domains. The overall framework entails the three phases: (I) Local Signatures, (II) Local Self-Supervised Model, and (III) Local Linkability Assessment with Distributed Models. 
 
 ![overview6.png](./figures/overview6.png)
 
